@@ -77,10 +77,8 @@ def gannt_chart(chrosome, scale):
 
 ########################### driver code ###################################
 
-#filename = input()
-#file = open(filename, "r")
-
-file = open("PCmax.txt", "r")
+filename = input()
+file = open(filename, "r")
 
 number_of_machines = int(file.readline())
 number_of_processes = int(file.readline())
